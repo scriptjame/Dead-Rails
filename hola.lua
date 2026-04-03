@@ -1,7 +1,7 @@
 -- SHIBA GET KEY GUI
 
-local linkvertiseLink = "https://keysystem-6299.onrender.com/start?type=lv" (sửa lại link key trong script index)
-local lootlabsLink = "https://keysystem-6299.onrender.com/start?type=ll"  (sửa lại link key trong script index)
+local linkvertiseLink = "https://keysystem-6299.onrender.com/start?type=lv" 
+local lootlabsLink = "https://keysystem-6299.onrender.com/start?type=ll"  
 
 -- 🔥 VERIFY URL
 local verifyURL = "https://keysystem-6299.onrender.com/verify?key="
@@ -26,7 +26,7 @@ if isfile and isfile(keyFile) then
 	end)
 
 	if success then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptjame/test2/refs/heads/main/loot.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptjame/Dead-Rails/refs/heads/main/loot.lua"))()
 		return
 	else
 		-- ❗ KHÔNG xoá key nữa → tránh hiện GUI lại
@@ -232,7 +232,7 @@ verify.MouseButton1Click:Connect(function()
 
 		gui:Destroy()
 
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptjame/test2/refs/heads/main/loot.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptjame/Dead-Rails/refs/heads/main/loot.lua"))()
 
 	else
 
